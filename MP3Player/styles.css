@@ -1,0 +1,171 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.col{
+    grid-column: span 2;
+}
+
+audio{
+    border-radius: 5rem;
+    width: 100%;
+	border: 1px solid #333;
+}
+.audioPlayer{
+    margin: 1rem 0;
+    width: 300px;
+}
+
+.col1 .audioPlayer1__label {
+	background: #18453b;
+	color: #fff;
+	display: block;
+	padding: .5rem;
+	width: 150px;
+	border-radius: 5px 5px 0 0;
+    margin: 0;
+	margin-left: 30px;
+	text-align: center;
+	border: 1px solid #333;
+	border-bottom: none;
+}
+
+.col1 .audioPlayer2__label {
+	display: block;
+	padding: .5rem;
+	width: 150px;
+	border-radius: 0;
+    margin: 0;
+	margin-left: 30px;
+	text-align: center;
+	border: 1px solid #333;
+	border-bottom: none;
+}
+
+.col1 .audioPlayer3__label {
+	display: block;
+	padding: .5rem;
+	width: 150px;
+	border-radius: 5px 5px 0 0;
+    margin: 0;
+	margin-left: 30px;
+	text-align: center;
+	border: 1px solid #333;
+	border-bottom: none;
+}
+
+.col1 .audioPlayer4__label {
+	display: block;
+	padding: .5rem;
+	width: 150px;
+	border-radius: 0;
+    margin: 0;
+	margin-left: 30px;
+	text-align: center;
+	border: 1px solid #333;
+	border-bottom: none;
+}
+
+.col2 .audioPlayer1__label {
+	display: block;
+	padding: .1rem;
+	width: 180px;
+	border-radius: 5px 5px 0 0;
+    margin: 0;
+	margin-left: 30px;
+	text-align: center;
+	border: 1px solid #333;
+	border-bottom: none;
+	background: #18453b;
+	color: #fff;
+}
+
+.col2 .audioPlayer1__label svg{
+	fill: #fff;
+}
+
+.col2 .audioPlayer2__label {
+	display: block;
+	padding: .1rem;
+	width: 180px;
+	border-radius: 5px 5px 0 0;
+    margin: 0;
+	margin-left: 30px;
+	text-align: center;
+	border: 1px solid #333;
+	border-bottom: none;
+	background: #fff;
+	color: #000;
+}
+
+.col2 .audioPlayer3__label {
+	display: block;
+	padding: .1rem;
+	width: 180px;
+	border-radius: 5px 5px 0 0;
+    margin: 0;
+	margin-left: 30px;
+	text-align: center;
+	border: 1px solid #333;
+	border-bottom: none;
+	background: #ccc;
+	color: #000;
+}
+
+
+
+.audioPlayer__label {
+	display: block;
+	background: #18453b;
+	color: #fff;
+	padding: .5rem;
+	width: 250px;
+	border-radius: 5px 5px 0 0;
+    margin: 0 auto;
+	text-align: center;
+}
+
+svg{
+    display: inline-block;
+    height: 16px;
+    width: auto;
+    padding-right: .6rem;
+    position: relative;
+    top: 3px;
+}
+
+.audioPlayer__label svg,
+.audioPlayer2__label svg{
+    fill: #FFF;
+}
+
+.audioPlayer2__label {
+	display: block;
+	background: #18453b;
+	color: #fff;
+	padding: .5rem;
+	width: 230px;
+    margin: 0 auto;
+	text-align: center;
+}
+
+.audioPlayer3__label {
+	display: block;
+	background: #CCC;
+	color: #000;
+	padding: .5rem;
+	width: 230px;
+    border-radius: 5px 5px 0 0;
+    margin: 0 auto;
+	text-align: center;
+}
+
+.audioPlayer4__label {
+	display: block;
+	background: #CCC;
+	color: #000;
+	padding: .5rem;
+	width: 230px;
+    margin: 0 auto;
+	text-align: center;
+}
